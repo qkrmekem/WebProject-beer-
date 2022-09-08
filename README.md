@@ -83,11 +83,11 @@
 <br>
                                                                                                            
 ## 📌 서비스 흐름도
-![image](https://user-images.githubusercontent.com/25995055/178401048-d6484bda-a2d7-40e1-998b-2bd195cd9f89.png)
+![](https://user-images.githubusercontent.com/108075531/189052605-fd2770b9-0b90-4001-9f13-efe277fb50de.png)
 <br>
 
 ## 📌 ER다이어그램
-![7](https://user-images.githubusercontent.com/108075531/189052111-6531b028-cc41-4120-929b-e3da1ac98de1.png)
+![](https://user-images.githubusercontent.com/108075531/189052238-50e248aa-c0ef-473e-98c4-a9b2654c0375.png)
 <br>
 
 ## 🖥 화면 구성
