@@ -99,10 +99,14 @@
 ![](https://user-images.githubusercontent.com/108075531/189054383-1109bcc6-e611-472c-8d9c-11a20929fec8.png)
 <br>
 
-### 일정/고객센터
-![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+### 맥주 추천(info), 검색(search) 페이지
+![](https://user-images.githubusercontent.com/108075531/189055230-cc7f549d-a7fc-4609-89bc-d3e8996ad101.png)
 <br>
 
+### 게시판
+![image](https://user-images.githubusercontent.com/108075531/189056147-9aaf1156-f79e-47e9-a92e-bd8c6ad340d6.png)
+
+                                                                                                           
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
   <tr>
