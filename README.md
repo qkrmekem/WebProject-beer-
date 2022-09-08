@@ -40,7 +40,7 @@
         <td>라이브러리</td>
         <td>
             <img src="https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=BootStrap&logoColor=white"/>
-            <img src="https://img.shields.io/badge/KakaoMap-FFCD00?style=for-the-badge&logo=Kakao&logoColor=white"/>
+            <img src="https://img.shields.io/badge/GoogleMaps-#4285F4?style=for-the-badge&logo=GoogleMaps&logoColor=white""/>
         </td>
     </tr>
     <tr>
