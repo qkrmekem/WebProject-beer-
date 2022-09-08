@@ -108,6 +108,12 @@
                                                                                                            
 ### 게시판 글쓰기,뷰,수정
 ![image](https://user-images.githubusercontent.com/108075531/189059281-cedb9374-f65a-4d22-94cb-77da23615dc0.png)
+                                                                                                           
+### 공지사항
+![image](https://user-images.githubusercontent.com/108075531/189059640-6ae5c05e-bdbf-4868-8a67-34cacf31dafd.png)
+                                                                                                           
+### 개인정보 수정 페이지
+![image](https://user-images.githubusercontent.com/108075531/189059721-09b40d09-344d-46c5-aa64-9a5152e58933.png)
 
                                                                                                            
 ## 👨‍👩‍👦‍👦 팀원 역할
