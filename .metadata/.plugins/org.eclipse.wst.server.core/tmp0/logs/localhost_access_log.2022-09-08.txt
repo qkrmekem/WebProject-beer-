@@ -1,0 +1,17 @@
+127.0.0.1 - - [08/Sep/2022:15:43:46 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/index.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/index.pik HTTP/1.1" 200 22844
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/jquery.dropotron.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/browser.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/breakpoints.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/util.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/jquery.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/js/main.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/css/fontawesome-all.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/images/main_font_logo1.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/css/images/bg02.png HTTP/1.1" 404 797
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/css/images/bg01.png HTTP/1.1" 404 797
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /beer/assets/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:47 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [08/Sep/2022:15:43:48 +0900] "GET /beer/images/beer_icon.png HTTP/1.1" 304 -
