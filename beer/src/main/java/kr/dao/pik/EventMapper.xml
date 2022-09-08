@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.dao.pik.EventMapper">
+
+	<select id="eventAllList" resultType="kr.entity.pik.Event">
+		select * from t_event order by b_seq desc
+	</select>
+	
+	<select id="eventView" parameterType="int" resultType="kr.entity.pik.Event" >
+		select * from t_event where b_seq=#{b_seq}
+	</select>
+	
+	<insert id="eventWrite" parameterType="kr.entity.pik.Event">
+		insert into t_event (b_seq, b_title, b_content, b_date, b_file, m_id, b_cnt)
+		 values (t_notice_seq.nextval,#{b_title}, #{b_content}, sysdate, #{b_file}, #{m_id}, 0)
+	</insert>
+	
+	<insert id="eventWrite2" parameterType="kr.entity.pik.Event">
+		insert into t_event (b_seq, b_title, b_content, b_date, m_id, b_cnt)
+		 values (t_notice_seq.nextval,#{b_title}, #{b_content}, sysdate, #{m_id}, 0)
+	</insert>
+		
+	<delete id="eventDelete" parameterType="int">
+		delete from t_event where b_seq=#{b_seq}
+	</delete>
+	
+	<update id="eventUpdate" parameterType="kr.entity.pik.Event">
+		update t_event set b_title=#{b_title}, b_content=#{b_content},b_file=#{b_file}, b_date=sysdate where b_seq=#{b_seq}
+	</update>
+	
+	<update id="eventUpdate2" parameterType="kr.entity.pik.Event">
+		update t_event set b_title=#{b_title}, b_content=#{b_content},b_date=sysdate where b_seq=#{b_seq}
+	</update>
+	
+	<select id="getEventSeq" parameterType="kr.entity.pik.Event" resultType="int">
+		select max(b_seq) from t_event where m_id = #{m_id}
+	</select>
+	
+	<update id="eventCountUpdate" parameterType="int">
+		update t_event set  b_cnt=b_cnt+1 where b_seq=#{b_seq}
+	</update>
+	
+</mapper>

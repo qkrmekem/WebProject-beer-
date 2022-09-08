@@ -1,0 +1,168 @@
+
+8월 25, 2022 12:07:51.30 NEW SESSION
+8월 25, 2022 12:07:51.30 [19252:4048:0825/120751.029:ERROR:device_event_log_impl.cc(214)] [12:07:51.028] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 12:07:51.31 [19252:4048:0825/120751.029:ERROR:device_event_log_impl.cc(214)] [12:07:51.029] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 12:07:51.31 [19252:4048:0825/120751.029:ERROR:device_event_log_impl.cc(214)] [12:07:51.029] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 12:08:47.998 [19252:19344:0825/120847.998:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+8월 25, 2022 14:45:04.929 NEW SESSION
+8월 25, 2022 14:45:04.929 [12976:19480:0825/144504.926:ERROR:device_event_log_impl.cc(214)] [14:45:04.926] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 14:45:04.930 [12976:19480:0825/144504.927:ERROR:device_event_log_impl.cc(214)] [14:45:04.927] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 14:45:04.930 [12976:19480:0825/144504.927:ERROR:device_event_log_impl.cc(214)] [14:45:04.927] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 14:46:02.879 [12976:7356:0825/144602.879:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 25, 2022 15:40:34.452 [12628:7224:0825/154034.452:ERROR:device_event_log_impl.cc(214)] [15:40:34.452] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 15:40:34.453 [12628:7224:0825/154034.452:ERROR:device_event_log_impl.cc(214)] [15:40:34.453] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 15:40:34.453 [12628:7224:0825/154034.452:ERROR:device_event_log_impl.cc(214)] [15:40:34.453] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 15:41:31.425 [12628:1456:0825/154131.425:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 25, 2022 17:17:16.134 [12628:7224:0825/171716.134:ERROR:device_event_log_impl.cc(214)] [17:17:16.134] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 25, 2022 18:33:01.343 [20816:17128:0825/183301.343:ERROR:device_event_log_impl.cc(214)] [18:33:01.342] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 18:33:01.344 [20816:17128:0825/183301.343:ERROR:device_event_log_impl.cc(214)] [18:33:01.343] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 18:33:01.344 [20816:17128:0825/183301.343:ERROR:device_event_log_impl.cc(214)] [18:33:01.343] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 25, 2022 18:33:58.755 [20816:14388:0825/183358.754:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 25, 2022 19:40:18.248 [20816:17128:0825/194018.247:ERROR:device_event_log_impl.cc(214)] [19:40:18.247] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+8월 26, 2022 14:23:23.141 NEW SESSION
+8월 26, 2022 14:23:23.141 [1824:13944:0826/142323.139:ERROR:device_event_log_impl.cc(214)] [14:23:23.140] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 26, 2022 14:23:23.142 [1824:13944:0826/142323.140:ERROR:device_event_log_impl.cc(214)] [14:23:23.140] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 26, 2022 14:23:23.142 [1824:13944:0826/142323.140:ERROR:device_event_log_impl.cc(214)] [14:23:23.140] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 26, 2022 14:24:20.83 [1824:1100:0826/142420.083:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 26, 2022 17:14:49.526 [1824:13944:0826/171449.523:ERROR:device_event_log_impl.cc(214)] [17:14:49.523] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 26, 2022 17:17:13.438 [1824:13944:0826/171713.438:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+8월 26, 2022 17:17:50.516 [1824:13944:0826/171750.516:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+8월 26, 2022 18:04:42.609 [1824:13944:0826/180442.608:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+8월 29, 2022 09:27:40.130 NEW SESSION
+8월 29, 2022 09:27:40.130 [10020:11240:0829/092740.129:ERROR:device_event_log_impl.cc(214)] [09:27:40.129] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 09:27:40.131 [10020:11240:0829/092740.130:ERROR:device_event_log_impl.cc(214)] [09:27:40.130] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 09:27:40.131 [10020:11240:0829/092740.130:ERROR:device_event_log_impl.cc(214)] [09:27:40.130] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 09:28:37.322 [10020:16940:0829/092837.322:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 29, 2022 10:39:04.358 [10020:11240:0829/103904.357:ERROR:device_event_log_impl.cc(214)] [10:39:04.358] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 29, 2022 10:45:00.891 [10020:11240:0829/104500.891:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.901 [10020:11240:0829/104500.891:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.901 [10020:11240:0829/104500.892:ERROR:CONSOLE(0)] "TypeError: Cannot read properties of null (reading 'resourceURL')", source:  (0)
+8월 29, 2022 10:45:00.904 [10020:11240:0829/104500.902:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.918 [10020:11240:0829/104500.918:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.919 [10020:11240:0829/104500.918:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.919 [10020:11240:0829/104500.918:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.927 [10020:11240:0829/104500.927:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.928 [10020:11240:0829/104500.927:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:00.928 [10020:11240:0829/104500.928:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.395 [10020:11240:0829/104501.394:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.395 [10020:11240:0829/104501.395:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.395 [10020:11240:0829/104501.395:ERROR:CONSOLE(0)] "TypeError: Cannot read properties of null (reading 'resourceURL')", source:  (0)
+8월 29, 2022 10:45:01.396 [10020:11240:0829/104501.395:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.401 [10020:11240:0829/104501.401:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.401 [10020:11240:0829/104501.401:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.402 [10020:11240:0829/104501.401:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.881 [10020:11240:0829/104501.881:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.881 [10020:11240:0829/104501.881:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 10:45:01.881 [10020:11240:0829/104501.881:ERROR:CONSOLE(0)] "TypeError: Cannot read properties of null (reading 'resourceURL')", source:  (0)
+8월 29, 2022 10:45:01.882 [10020:11240:0829/104501.881:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 29, 2022 11:48:34.251 [7568:9316:0829/114834.250:ERROR:device_event_log_impl.cc(214)] [11:48:34.250] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 11:48:34.252 [7568:9316:0829/114834.251:ERROR:device_event_log_impl.cc(214)] [11:48:34.251] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 11:48:34.252 [7568:9316:0829/114834.251:ERROR:device_event_log_impl.cc(214)] [11:48:34.251] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 11:49:31.194 [7568:1300:0829/114931.193:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 29, 2022 12:44:20.566 [2612:20644:0829/124420.566:ERROR:device_event_log_impl.cc(214)] [12:44:20.566] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:44:20.567 [2612:20644:0829/124420.566:ERROR:device_event_log_impl.cc(214)] [12:44:20.567] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:44:20.567 [2612:20644:0829/124420.566:ERROR:device_event_log_impl.cc(214)] [12:44:20.567] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:45:16.990 [2612:3076:0829/124516.990:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 29, 2022 12:50:53.182 [1088:6276:0829/125053.181:ERROR:device_event_log_impl.cc(214)] [12:50:53.181] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:50:53.182 [1088:6276:0829/125053.182:ERROR:device_event_log_impl.cc(214)] [12:50:53.182] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:50:53.182 [1088:6276:0829/125053.182:ERROR:device_event_log_impl.cc(214)] [12:50:53.182] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 12:51:49.247 [1088:7584:0829/125149.246:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 29, 2022 14:09:05.368 [1088:6276:0829/140905.368:ERROR:device_event_log_impl.cc(214)] [14:09:05.363] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 29, 2022 14:20:39.760 [2452:17348:0829/142039.758:ERROR:device_event_log_impl.cc(214)] [14:20:39.759] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 14:20:39.760 [2452:17348:0829/142039.760:ERROR:device_event_log_impl.cc(214)] [14:20:39.760] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 14:20:39.760 [2452:17348:0829/142039.760:ERROR:device_event_log_impl.cc(214)] [14:20:39.760] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 29, 2022 14:21:36.707 [2452:2244:0829/142136.706:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 29, 2022 15:25:18.28 [2452:17348:0829/152518.028:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+8월 29, 2022 15:25:18.29     at Hn.contentType (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:283523)
+8월 29, 2022 15:25:18.29     at new Ce (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:56626)
+8월 29, 2022 15:25:18.30     at Le.resourceAdded (devtools://devtools/bundled/devtools-frontend/front_end/models/bindings/bindings.js:1:55887)
+8월 29, 2022 15:25:18.30     at Vn.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+8월 29, 2022 15:25:18.30     at Gn.addRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:298429)
+8월 29, 2022 15:25:18.30     at Vn.onRequestFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:289861)
+8월 29, 2022 15:25:18.30     at te.dispatchEventToListeners (devtools://devtools/bundled/devtools-frontend/front_end/core/common/common.js:1:18605)
+8월 29, 2022 15:25:18.31     at de.finishNetworkRequest (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:107774)
+8월 29, 2022 15:25:18.31     at de.loadingFinished (devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js:1:103264)
+8월 29, 2022 15:25:18.31     at g.dispatch (devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js:1:7341)", source: devtools://devtools/bundled/devtools-frontend/front_end/core/host/host.js (1)
+8월 29, 2022 17:16:58.726 [2452:17348:0829/171658.724:ERROR:device_event_log_impl.cc(214)] [17:16:58.724] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+8월 30, 2022 09:03:04.336 NEW SESSION
+8월 30, 2022 09:03:04.336 [12324:6132:0830/090304.334:ERROR:device_event_log_impl.cc(214)] [09:03:04.334] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 09:03:04.337 [12324:6132:0830/090304.335:ERROR:device_event_log_impl.cc(214)] [09:03:04.335] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 09:03:04.337 [12324:6132:0830/090304.335:ERROR:device_event_log_impl.cc(214)] [09:03:04.335] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 09:04:01.314 [12324:13572:0830/090401.314:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 30, 2022 09:14:51.587 [12324:6132:0830/091451.586:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+8월 30, 2022 09:40:21.239 [12324:6132:0830/094021.239:ERROR:device_event_log_impl.cc(214)] [09:40:21.239] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 30, 2022 11:17:13.123 [5324:14616:0830/111713.123:ERROR:device_event_log_impl.cc(214)] [11:17:13.123] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 11:17:13.124 [5324:14616:0830/111713.123:ERROR:device_event_log_impl.cc(214)] [11:17:13.123] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 11:17:13.124 [5324:14616:0830/111713.124:ERROR:device_event_log_impl.cc(214)] [11:17:13.123] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 30, 2022 11:18:08.749 [5324:15392:0830/111808.749:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 30, 2022 14:09:53.983 [5324:14616:0830/140953.983:ERROR:device_event_log_impl.cc(214)] [14:09:53.822] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 30, 2022 16:18:08.767 [5324:8852:0830/161808.766:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+8월 31, 2022 09:10:14.565 NEW SESSION
+8월 31, 2022 09:10:14.565 [19984:11924:0831/091014.563:ERROR:device_event_log_impl.cc(214)] [09:10:14.564] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:10:14.565 [19984:11924:0831/091014.564:ERROR:device_event_log_impl.cc(214)] [09:10:14.564] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:10:14.566 [19984:11924:0831/091014.564:ERROR:device_event_log_impl.cc(214)] [09:10:14.564] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:11:11.513 [19984:16092:0831/091111.513:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 31, 2022 09:16:23.517 [5384:15664:0831/091623.517:ERROR:device_event_log_impl.cc(214)] [09:16:23.516] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:16:23.518 [5384:15664:0831/091623.517:ERROR:device_event_log_impl.cc(214)] [09:16:23.517] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:16:23.518 [5384:15664:0831/091623.517:ERROR:device_event_log_impl.cc(214)] [09:16:23.517] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+8월 31, 2022 09:17:20.468 [5384:1296:0831/091720.468:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+8월 31, 2022 09:56:53.597 [5384:15664:0831/095653.596:ERROR:device_event_log_impl.cc(214)] [09:56:53.596] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+8월 31, 2022 10:57:55.969 [5384:15492:0831/105755.969:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -7
+8월 31, 2022 11:05:05.367 [5384:15664:0831/110505.366:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.367 [5384:15664:0831/110505.366:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.368 [5384:15664:0831/110505.367:ERROR:CONSOLE(0)] "TypeError: Cannot read properties of null (reading 'resourceURL')", source:  (0)
+8월 31, 2022 11:05:05.368 [5384:15664:0831/110505.367:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.375 [5384:15664:0831/110505.374:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.376 [5384:15664:0831/110505.374:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.376 [5384:15664:0831/110505.374:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.412 [5384:15664:0831/110505.412:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.412 [5384:15664:0831/110505.412:ERROR:CONSOLE(1)] "console.assert", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 11:05:05.413 [5384:15664:0831/110505.412:ERROR:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of null (reading 'resourceURL')", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+8월 31, 2022 15:00:49.128 [5384:7292:0831/150049.128:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+9월 01, 2022 18:48:14.553 NEW SESSION
+9월 01, 2022 18:48:14.553 [18996:15972:0901/184814.541:ERROR:device_event_log_impl.cc(214)] [18:48:14.541] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 01, 2022 18:48:14.554 [18996:15972:0901/184814.542:ERROR:device_event_log_impl.cc(214)] [18:48:14.542] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 01, 2022 18:48:14.554 [18996:15972:0901/184814.542:ERROR:device_event_log_impl.cc(214)] [18:48:14.542] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 01, 2022 18:49:11.468 [18996:15784:0901/184911.467:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+9월 01, 2022 20:06:17.909 [18996:15972:0901/200617.908:ERROR:device_event_log_impl.cc(214)] [20:06:17.907] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+
+9월 02, 2022 12:10:41.939 NEW SESSION
+9월 02, 2022 12:10:41.939 [20960:18472:0902/121041.937:ERROR:device_event_log_impl.cc(214)] [12:10:41.937] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 12:10:41.940 [20960:18472:0902/121041.938:ERROR:device_event_log_impl.cc(214)] [12:10:41.938] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 12:10:41.940 [20960:18472:0902/121041.938:ERROR:device_event_log_impl.cc(214)] [12:10:41.938] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 12:11:37.06 [20960:18656:0902/121137.005:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+9월 02, 2022 15:27:55.291 NEW SESSION
+9월 02, 2022 15:27:55.291 [18632:7664:0902/152755.285:ERROR:device_event_log_impl.cc(214)] [15:27:55.286] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 15:27:55.291 [18632:7664:0902/152755.286:ERROR:device_event_log_impl.cc(214)] [15:27:55.287] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 15:27:55.291 [18632:7664:0902/152755.286:ERROR:device_event_log_impl.cc(214)] [15:27:55.287] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 15:28:52.200 [18632:7352:0902/152852.200:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+9월 02, 2022 15:51:49.776 [18632:7664:0902/155149.775:ERROR:device_event_log_impl.cc(214)] [15:51:49.776] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+9월 02, 2022 16:56:18.85 [5528:13284:0902/165618.084:ERROR:device_event_log_impl.cc(214)] [16:56:18.084] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 16:56:18.86 [5528:13284:0902/165618.085:ERROR:device_event_log_impl.cc(214)] [16:56:18.085] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 16:56:18.86 [5528:13284:0902/165618.085:ERROR:device_event_log_impl.cc(214)] [16:56:18.085] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 16:57:13.576 [5528:11360:0902/165713.576:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+9월 02, 2022 17:39:24.746 [5528:13284:0902/173924.746:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+9월 02, 2022 18:09:56.384 NEW SESSION
+9월 02, 2022 18:09:56.384 [5516:18492:0902/180956.381:ERROR:device_event_log_impl.cc(214)] [18:09:56.382] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 18:09:56.385 [5516:18492:0902/180956.382:ERROR:device_event_log_impl.cc(214)] [18:09:56.382] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 18:09:56.385 [5516:18492:0902/180956.382:ERROR:device_event_log_impl.cc(214)] [18:09:56.382] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 02, 2022 18:10:53.238 [5516:14320:0902/181053.238:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+9월 05, 2022 09:16:02.13 NEW SESSION
+9월 05, 2022 09:16:02.14 [10736:12228:0905/091602.012:ERROR:device_event_log_impl.cc(214)] [09:16:02.012] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:16:02.16 [10736:12228:0905/091602.012:ERROR:device_event_log_impl.cc(214)] [09:16:02.013] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:16:02.16 [10736:12228:0905/091602.013:ERROR:device_event_log_impl.cc(214)] [09:16:02.013] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:16:57.679 [10736:18304:0905/091657.679:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+9월 05, 2022 09:17:23.621 [7864:12640:0905/091723.621:ERROR:device_event_log_impl.cc(214)] [09:17:23.621] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:17:23.622 [7864:12640:0905/091723.621:ERROR:device_event_log_impl.cc(214)] [09:17:23.622] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:17:23.622 [7864:12640:0905/091723.621:ERROR:device_event_log_impl.cc(214)] [09:17:23.622] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+9월 05, 2022 09:18:16.909 [7864:2664:0905/091816.909:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+9월 05, 2022 10:30:24.340 [7864:12640:0905/103024.339:ERROR:device_event_log_impl.cc(214)] [10:30:24.334] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)

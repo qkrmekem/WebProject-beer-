@@ -1,0 +1,93 @@
+package kr.entity.pik;
+//페이징 처리 
+public class Paging {
+	
+	private int totalPageCount;
+	private int pagePerArticle;
+	private int totalArticle;
+	private int page;
+	private int startPage;
+	private int endPage;
+	private int startArticle;
+	private int endArticle;
+	
+	public Paging(int page, int totalArticle) {
+		super();
+		this.pagePerArticle = 12;
+		this.page = page;
+		this.totalArticle = totalArticle;
+		this.totalPageCount = totalArticle/pagePerArticle;
+		if(totalArticle%pagePerArticle != 0) {
+			totalPageCount++;
+		}
+		if(totalPageCount<5) {
+			endPage = totalPageCount;
+		}else if(page>=totalPageCount-1) {
+			endPage = totalPageCount;
+			startPage = totalPageCount-4;
+		}else {
+			startPage = page-2;
+			endPage = page+2;
+		}
+		// 인덱스 기준
+		this.startArticle = (page-1)*pagePerArticle;
+		this.endArticle = page*pagePerArticle > totalArticle? totalArticle : page*pagePerArticle-1;
+	}
+	public int getTotalPageCount() {
+		return totalPageCount;
+	}
+	public void setTotalPageCount(int totalPageCount) {
+		this.totalPageCount = totalPageCount;
+	}
+	public int getPagePerArticle() {
+		return pagePerArticle;
+	}
+	public void setPagePerArticle(int pagePerArticle) {
+		this.pagePerArticle = pagePerArticle;
+	}
+	public int getTotalArticle() {
+		return totalArticle;
+	}
+	public void setTotalArticle(int totalArticle) {
+		this.totalArticle = totalArticle;
+	}
+	public int getPage() {
+		return page;
+	}
+	public void setPage(int page) {
+		this.page = page;
+	}
+	public int getStartPage() {
+		return startPage;
+	}
+	public void setStartPage(int startPage) {
+		this.startPage = startPage;
+	}
+	public int getEndPage() {
+		return endPage;
+	}
+	public void setEndPage(int endPage) {
+		this.endPage = endPage;
+	}
+	public int getStartArticle() {
+		return startArticle;
+	}
+	public void setStartArticle(int startArticle) {
+		this.startArticle = startArticle;
+	}
+	public int getEndArticle() {
+		return endArticle;
+	}
+	public void setEndArticle(int endArticle) {
+		this.endArticle = endArticle;
+	}
+	@Override
+	public String toString() {
+		return "Paging [totalPageCount=" + totalPageCount + ", pagePerArticle=" + pagePerArticle + ", totalArticle="
+				+ totalArticle + ", page=" + page + ", startPage=" + startPage + ", endPage=" + endPage
+				+ ", startArticle=" + startArticle + ", endArticle=" + endArticle + "]";
+	}
+	
+	
+	
+}

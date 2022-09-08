@@ -1,0 +1,150 @@
+package kr.dao.pik;
+
+import java.io.InputStream;
+import java.util.List;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import kr.entity.pik.Article;
+
+public class ArticleMapper {
+	private static SqlSessionFactory sqlSessionFactory = null;
+		
+		static {
+			try {
+				String resource = "kr/dao/pik/mybatis-config.xml";
+				InputStream inputStream = Resources.getResourceAsStream(resource);
+				sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+				
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		
+		public List<Article> articleAllList() {
+			SqlSession session= sqlSessionFactory.openSession();
+			List<Article> list = session.selectList("articleAllList");
+			System.out.println(list);
+//			 for(Article a : list){
+//				 	System.out.println(a.getB_cnt());
+//				 	System.out.println(a.getB_content());
+//				 	System.out.println(a.getB_date());
+//				 } 	
+			
+			System.out.println(list.size());
+			session.close();
+			return list;
+		}
+		
+		
+		// 게시물 하나 보기 메소드
+		public Article articleView(int b_seq) {
+			SqlSession session = sqlSessionFactory.openSession();
+
+			Article vo = null;
+			try {
+				vo = session.selectOne("articleView", b_seq);
+				session.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			return vo;	
+		}
+		// articleView end
+		
+		// 게시판 조회수 +1
+		public void articleCountUpdate(int b_cnt) {
+			SqlSession session = sqlSessionFactory.openSession();
+			try {
+				session.update("articleCountUpdate", b_cnt);
+				session.commit();
+				session.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		// articleCountUpdate end
+		
+		// 게시물 수정하기 메소드 
+		public int articleUpdate(Article vo) {
+			SqlSession session = sqlSessionFactory.openSession();
+			int cnt = 0;
+			try {
+				cnt = session.update("articleUpdate", vo);
+				session.commit();
+				session.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}		
+			return cnt;
+		}
+		// articleUpdate end
+
+		// 게시판 글쓰기 메소드
+		public int articleWrite(Article avo) {
+			SqlSession session = sqlSessionFactory.openSession();
+			int seq = 0;
+			try {
+				session.insert("articleWrite",avo);
+				session.commit();
+				seq = session.selectOne("getArticleSeq", avo);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			
+			session.close();
+			return seq;
+		}
+		// articleWrite end
+		
+		//게시판 삭제 메소드
+		public int articleDelete(int b_seq) {
+			SqlSession session = sqlSessionFactory.openSession();
+			int cnt = 0;
+
+			try {
+				cnt = session.delete("articleDelete",b_seq);
+				session.commit();
+				session.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			return cnt;			
+		}
+		//  articleDelete end
+		
+		// 게시판 체크용 메소드
+		public Article articleCheckOut() {
+			SqlSession session = sqlSessionFactory.openSession();
+			Article avo = null;
+			try {
+				avo = session.selectOne("articleCheckOut");
+				session.commit();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+			
+			session.close();
+			return avo;
+		}
+		// articleCheckOut end
+
+
+		public int countArticleList() {
+			SqlSession session = sqlSessionFactory.openSession();
+			int size=0;
+			try {
+				size=session.selectOne("countArticleList");
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+			return size;
+		}
+}

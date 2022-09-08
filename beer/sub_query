@@ -1,0 +1,12 @@
+select * from T_BEER;
+
+
+(select taste_name from t_taste where taste_seq = ( select distinct taste_seq from t_beer where taste_seq = 1)) as taste_name1;
+(select taste_name from t_taste where taste_seq = ( select distinct taste_seq2 from t_beer where taste_seq2 = 2)) as taste_name2;
+(select taste_name from t_taste where taste_seq = ( select distinct taste_seq3 from t_beer where taste_seq3 = 3)) as taste_name3;
+
+(select country_name from T_COUNTRY where country_cd = ( select distinct country_cd from t_beer where country_cd = 'c1')) as country_name;
+(select aroma_name from t_aroma where aroma_seq = ( select distinct aroma_seq from t_beer where aroma_seq = 1)) as aroma_name;
+(select from_source from t_from where from_seq = ( select distinct from_seq from t_beer where from_seq = 1)) as from_source;
+
+

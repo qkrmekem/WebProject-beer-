@@ -1,0 +1,142 @@
+package kr.entity.pik;
+//페이징 처리
+public class Paging {
+	
+	private int totalpagecount;
+	private int pageperarticle;
+	private int totalarticle;
+	private int page;
+	private int startpage;
+	private int endpage;
+	private int startarticle;
+	private int endarticle;
+	
+	public Paging(int page, int totalarticle) {
+		super();
+		this.pageperarticle = 12;
+		this.page = page;
+		this.totalarticle = totalarticle;
+		this.totalpagecount = totalarticle/pageperarticle;
+		if(totalarticle%pageperarticle != 0) {
+			totalpagecount++;
+		}
+		if(totalpagecount<5) {
+			endpage = totalpagecount;
+		}else if(page>=totalpagecount-1) {
+			endpage = totalpagecount;
+			startpage = totalpagecount-4;
+		}else {
+			startpage = page-2;
+			endpage = page+2;
+		}
+		this.startarticle = (page-1)*pageperarticle;
+		this.endarticle = page*pageperarticle > totalarticle? totalarticle : page*pageperarticle;
+	}
+	
+	
+	
+	public int getTotalpagecount() {
+		return totalpagecount;
+	}
+
+
+
+	public void setTotalpagecount(int totalpagecount) {
+		this.totalpagecount = totalpagecount;
+	}
+
+
+
+	public int getPageperarticle() {
+		return pageperarticle;
+	}
+
+
+
+	public void setPageperarticle(int pageperarticle) {
+		this.pageperarticle = pageperarticle;
+	}
+
+
+
+	public int getTotalarticle() {
+		return totalarticle;
+	}
+
+
+
+	public void setTotalarticle(int totalarticle) {
+		this.totalarticle = totalarticle;
+	}
+
+
+
+	public int getPage() {
+		return page;
+	}
+
+
+
+	public void setPage(int page) {
+		this.page = page;
+	}
+
+
+
+	public int getStartpage() {
+		return startpage;
+	}
+
+
+
+	public void setStartpage(int startpage) {
+		this.startpage = startpage;
+	}
+
+
+
+	public int getEndpage() {
+		return endpage;
+	}
+
+
+
+	public void setEndpage(int endpage) {
+		this.endpage = endpage;
+	}
+
+
+
+	public int getStartarticle() {
+		return startarticle;
+	}
+
+
+
+	public void setStartarticle(int startarticle) {
+		this.startarticle = startarticle;
+	}
+
+
+
+	public int getEndarticle() {
+		return endarticle;
+	}
+
+
+
+	public void setEndarticle(int endarticle) {
+		this.endarticle = endarticle;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Paging [totalpagecount=" + totalpagecount + ", pageperarticle=" + pageperarticle + ", totalarticle="
+				+ totalarticle + ", page=" + page + ", startpage=" + startpage + ", endpage=" + endpage
+				+ ", startarticle=" + startarticle + ", endarticle=" + endarticle + "]";
+	}
+	
+	
+}

@@ -1,0 +1,41 @@
+package kr.controller.pik;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import kr.dao.pik.ArticleMapper;
+import kr.dao.pik.MemberMapper;
+import kr.entity.pik.Article;
+import kr.entity.pik.Paging;
+
+public class ArticleListController implements Controller{
+
+	@Override
+	public String requestProcessor(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		ArticleMapper dao = new ArticleMapper();
+		
+		int page = Integer.parseInt(request.getParameter("page"));
+		
+		int totalArticleCount = dao.countArticleList();
+		
+		System.out.println("들어가기 전"+page);
+		System.out.println("들어가기 전"+totalArticleCount);
+		
+		Paging paging = new Paging(page, totalArticleCount);
+		
+		System.out.println(paging.toString());
+		
+		request.setAttribute("paging", paging);
+		
+		List<Article> list = dao.articleAllList();
+		request.setAttribute("list", list);
+		
+		return "articleList";
+	}
+	
+}

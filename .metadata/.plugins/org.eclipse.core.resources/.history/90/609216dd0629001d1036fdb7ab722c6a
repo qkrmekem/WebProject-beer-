@@ -1,0 +1,28 @@
+package kr.controller.pik;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import kr.dao.pik.ArticleMapper;
+import kr.dao.pik.MemberMapper;
+import kr.entity.pik.Article;
+
+public class ArticleListController implements Controller{
+
+	@Override
+	public String requestProcessor(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		ArticleMapper dao = new ArticleMapper();
+		List<Article> list = dao.articleAllList();
+		
+		
+		request.setAttribute("list", list);
+		
+		return "articleList";
+	}
+	
+}

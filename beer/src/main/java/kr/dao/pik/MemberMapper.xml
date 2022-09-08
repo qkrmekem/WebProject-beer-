@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.dao.pik.MemberMapper">
+
+	<insert id="register" parameterType="kr.entity.pik.Member">
+		insert into t_member(m_id,m_pw,m_name,m_birthdate,m_gender,m_email,m_joindate,m_type)
+		values(#{m_id},#{m_pw},#{m_name},#{m_birthdate},#{m_gender},#{m_email},sysdate,#{m_type})
+	</insert>
+	
+	<select id="logIn" parameterType="kr.entity.pik.Member" resultType="kr.entity.pik.Member">
+		select * from t_member where m_id=#{m_id} and m_pw=#{m_pw}
+	</select>
+	
+	<select id="getFavorite" resultType="kr.entity.pik.MemberFavorite">
+		select * from t_member_favs where m_id=#{m_id}
+	</select>
+	
+	<insert id="registerFavorite">
+		insert into t_member_favs(m_id,taste_seq,aroma_seq,from_seq,country_cd) values(#{m_id}, #{taste_seq}, #{aroma_seq}, #{from_seq}, #{country_cd})
+	</insert>
+	
+	<select id="doubleCheck" resultType="kr.entity.pik.Member">
+		select * from t_member where m_id=#{m_id}
+	</select>
+	
+	<update id="updateNickName" parameterType="kr.entity.pik.Member">
+		update t_member set m_nickname=#{m_nickname}  where m_id=#{m_id}
+	</update>
+	
+	<update id="updateEmail" parameterType="kr.entity.pik.Member">
+		update t_member set m_email=#{m_email}  where m_id=#{m_id}
+	</update>
+	
+	<update id="updatePassword" parameterType="kr.entity.pik.Member">
+		update t_member set m_pw=#{m_pw}  where m_id=#{m_id}
+	</update>
+	
+	<update id="updateBirthdate" parameterType="kr.entity.pik.Member">
+		update t_member set m_birthdate=#{m_birthdate}  where m_id=#{m_id}
+	</update>
+	
+	<update id="updateFavorite" parameterType="kr.entity.pik.MemberFavorite"> 
+		update T_MEMBER_FAVS set aroma_seq=#{aroma_seq}, from_seq=#{from_seq}, taste_seq = #{taste_seq} where m_id = #{m_id}
+	</update>
+	
+	<update id="updateProfile" parameterType="kr.entity.pik.Member">
+		update t_member set m_profile = #{m_profile} where m_id=#{m_id}
+	</update>
+	
+</mapper>

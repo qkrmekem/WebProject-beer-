@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.dao.pik.ArticleMapper">
+	
+	<select id="articleAllList" parameterType="kr.entity.pik.Paging" resultType="kr.entity.pik.Article">
+		select * from t_article a, (select rownum num, b_seq from t_article order by b_seq desc) b
+		 where a.b_seq = b.b_seq and num between #{start_article} and #{end_article} order by b.num 
+	</select>
+	
+	<select id="articleView" parameterType="int" resultType="kr.entity.pik.Article" >
+		select * from t_article where b_seq=#{b_seq}
+	</select>
+	
+	<update id="articleCountUpdate" parameterType="int">
+		update t_article set  b_cnt=b_cnt+1 where b_seq=#{b_seq}
+	</update>
+	
+	<update id="articleUpdate" parameterType="kr.entity.pik.Article">
+		update t_article set b_title=#{b_title}, b_content=#{b_content}, b_file=#{b_file}, b_date=sysdate where b_seq=#{b_seq}
+	</update>
+	
+	<update id="articleUpdate2" parameterType="kr.entity.pik.Article">
+		update t_article set b_title=#{b_title}, b_content=#{b_content}, b_date=sysdate where b_seq=#{b_seq}
+	</update>
+	
+	<insert id="articleWrite" parameterType="kr.entity.pik.Article">
+		insert into t_article (b_title, b_content, b_date, b_file, m_id, b_cnt)
+		 values (#{b_title}, #{b_content}, sysdate, #{b_file}, #{m_id}, 0)
+	</insert>
+	
+	<insert id="articleWrite2" parameterType="kr.entity.pik.Article">
+		insert into t_article (b_title, b_content, b_date, m_id, b_cnt)
+		 values (#{b_title}, #{b_content}, sysdate, #{m_id}, 0)
+	</insert>
+
+	<select id="getArticleSeq" parameterType="kr.entity.pik.Article" resultType="int">
+		select max(b_seq) from t_article where m_id = #{m_id}
+	</select>
+	
+	<delete id="articleDelete" parameterType="int">
+		delete from t_article where b_seq=#{b_seq}
+	</delete>
+	
+	<select id="countArticleList" resultType="int">
+		select count(*) from t_article
+	</select>
+	
+	<delete id="replyAllDelete" parameterType="int">
+		delete from t_reply where b_seq=#{b_seq}
+	</delete>
+	
+	<select id="replyAllList" parameterType="int" resultType="kr.entity.pik.Reply">
+		select * from t_reply where b_seq=#{b_seq} order by r_seq
+	</select>
+	
+	<delete id="replyDelete" parameterType="int">
+		delete from t_reply where r_seq=#{r_seq}
+	</delete>
+
+	<insert id="replyWrite" parameterType="kr.entity.pik.Reply">
+		insert into t_reply values(#{b_seq},t_reply_seq.nextval,#{m_id},#{r_re},sysdate)
+	</insert>
+	
+	<select id="replyWriteView" parameterType="String" resultType="kr.entity.pik.Reply">
+		select * from t_reply where r_seq = (select max(r_seq) from t_reply where m_id=#{m_id})
+	</select>
+	
+	<select id="reviewUpdate" resultType="kr.entity.pik.Article">
+		<![CDATA[
+		select * from (select * from t_article order by b_cnt desc ) where rownum<=5
+		]]>
+	</select>
+	
+	<select id="latestReply" parameterType="String" resultType="kr.entity.pik.Reply">
+		select * from t_reply a, (select rownum num, r_seq from t_reply where m_id=#{m_id} order by r_seq desc) b 
+		where a.r_seq=b.r_seq and b.num between 1 and 3 order by num
+	</select>
+	
+	
+	<select id="latestArticle" parameterType="String" resultType="kr.entity.pik.Article">
+		select * from t_article a, (select rownum num, b_seq from t_article where m_id=#{m_id} order by b_seq desc) b 
+		where a.b_seq=b.b_seq and b.num between 1 and 3 order by num 
+	</select>
+	
+</mapper>

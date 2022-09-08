@@ -1,0 +1,228 @@
+img{
+	width: 170px; height: 170px; object-fit:contain;
+}
+.box{
+	border-radius:2%;
+}
+
+.profileImg-pik{
+    border-radius: 100% !important;
+    width: 170px;
+    height: 170px;
+       
+}
+.profilImgBox{
+	padding-left:50px;	
+}
+.p-pik{
+    margin:10px;
+
+}
+.p-write-pik{
+    margin:15px 12px 12px 12px;
+    padding-left:3px;
+    padding-bottom:3px;
+    border-color: #ccc;
+}
+
+.h3-my-pik{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.p-my-pik{
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.p-small-my-pik{
+    font-size: 13px;
+    margin-left: 5px;
+    font-style: italic;
+}
+.infoOutbox-pik{
+    border: solid 1px;
+    border-color: #ccc;
+    border-radius: 2%;
+    padding:10px;
+}
+.infoInbox-pik{
+    background-color: #f7f7f7;
+
+    margin: 20px;
+    padding: 5px;
+    
+}
+.infoInboxLeft-pik{
+    width: 20%;
+    height: 100% !important;
+    display: inline-block ;
+    text-align:center;
+    padding: 10px;
+    font-size: 15px !important;
+    float: left;
+}
+.infoInboxRight-pik{
+    width: 75%;
+    display: inline-block;
+    padding: 10px 10px 10px 25px;
+    border-left: solid 1px #ccc !important;
+}
+.boxBasic-pik{
+    display: block ;
+}
+.boxEdit-pik{
+    display: none;
+}
+.mypage-button-pik{
+    font-size: xx-small;
+    width: 40px !important;
+    padding: 0.4em 0.65em 0.4em 0.65em;
+    margin-left: 2em;
+    background-color: #BFBEBD;
+}
+.mypage-button-pik:hover{
+    background-color: #F2CB05;
+}
+.boxEdit-birth-pik div{
+    width: 20%;
+    display: inline-block;
+}
+.inputInBox-pik{
+    margin: 0.3em !important;
+    padding: 0.1em 0.3em !important;
+    width:250px !important;
+    height: 30px !important;
+    font-size: 13px !important;
+    display: inline-block !important;
+}
+.editpage-button-pik{
+    font-size: xx-small;
+    width: 40px !important;
+    padding: 0.4em 0.65em 0.4em 0.65em;
+    margin-left: 2em;
+    background-color: #BFBEBD;
+}
+.editpage-button-pik:hover{
+    background-color: #253659 !important;
+}
+.back-button-pik{
+    font-size: xx-small;
+    width: 40px !important;
+    padding: 0.4em 0.65em 0.4em 0.65em;
+    margin-left: 1em;
+    background-color: #BFBEBD;
+}
+.back-button-pik:hover{
+    background-color: #d52349 !important;
+}
+.favorite-edit{
+	margin-top:7px;
+}
+.favorite-edit-font{
+	font-size:13px ;
+	margin:5px 5px 5px 0;
+	
+}
+.favorite-edit-h4{
+	display:inline;
+}
+.beer-edit-select{
+	text-align:center;
+	width:80px;
+	height: 27px;
+	margin:3px 0 0 5px;
+	padding-bottom:5px;
+	border-radius: 3px;
+	border:1px solid #999;
+}
+.favorite-edit-button{
+	margin-left:300px;	
+}
+.pre-favorite{
+	margin-right:5px;
+}
+#wrong-pw{
+	font-size:12px;
+	color: #d52349 ;
+	padding: 0.4em 0.65em 0.4em 0.65em;
+	display:none;
+}
+#wrong-new-pw{
+	font-size: 12px;
+	color: #d52349 ;
+	padding: 0.4em 0.65em 0.4em 0.65em;
+	display:none;
+}
+
+.upload-name-pik{
+    display: inline-block;
+    height: 25px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    width: 150px;
+    color: #999999;
+    font-size: small;
+}
+.label-for-file {
+    display: inline-block;
+    padding: 0 3px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #999999;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: x-small;
+}
+.boxEdit-profile-pik input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+.update-profile-button {
+	margin-top:10px;
+	margin-left:70px;
+}
+.edit-profile-button{
+	margin-left:190px;
+}
+.say-hello{
+	border-bottom: solid 2px #ccc;
+	border-top: solid 2px #ccc;
+	margin-top:10px;
+	border-radius: 2%;
+	text-align: center;
+	background-color: #f7f7f7; 
+}
+.boxEdit-profile-pik{
+	margin-top:15px;
+	padding: 15px 10px;
+	border-bottom: solid 2px #ccc;
+	border-top: solid 2px #ccc;
+	background-color: #f7f7f7; 
+	
+}
+.latestReAl{
+	
+	text-decoration-line: none !important;
+	color: #5D5D5D;
+	
+}
+.box-latestReAl{
+	border-bottom: solid 2px #ccc;
+	border-top: solid 2px #ccc;
+	margin-top:10px;
+	border-radius: 2%;
+	text-align: center;
+	background-color: #f7f7f7; 
+	
+}
+

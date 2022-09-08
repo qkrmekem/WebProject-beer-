@@ -1,0 +1,5 @@
+package kr.entity.pik;
+//페이징 처리 
+public class Paging {
+
+}

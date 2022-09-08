@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\aischool\Desktop\work_folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\809218684.index
+\beer\src\main\java
+C:\Users\aischool\Desktop\work_folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2804444438.index
+\beer\src\main\java

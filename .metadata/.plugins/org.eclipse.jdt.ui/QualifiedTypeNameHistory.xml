@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="kr.controller.pik.ArticleWriteFormController"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.ArticleWriteController"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.LoginController"/>
+    <fullyQualifiedTypeName name="kr.dao.pik.ArticleMapper"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.ArticleUpdateFormController"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.LogInFormController"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.LogoutController"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.Controller"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.RegisterFormController"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.RegisterController"/>
+    <fullyQualifiedTypeName name="kr.entity.pik.Member"/>
+    <fullyQualifiedTypeName name="kr.dao.pik.MemberMapper"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="kr.entity.pik.Article"/>
+    <fullyQualifiedTypeName name="kr.entity.pik.Paging"/>
+    <fullyQualifiedTypeName name="kr.entity.pik.MemberFavorite"/>
+    <fullyQualifiedTypeName name="kr.controller.pik.DoubleCheckController"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.dao.pik.BeerMapper">
+
+	<select id="countryList" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from t_beer a where COUNTRY_CD = #{cd}
+		
+	</select>
+	
+	<update id="setfavor" parameterType="kr.entity.pik.MemberFavorite">
+		update T_MEMBER_FAVS set beer_seq = #{beer_seq} where m_id = #{m_id}
+	</update>
+		
+	<select id="getfavor" resultType="kr.entity.pik.MemberFavorite">
+		select * from T_MEMBER_FAVS a where M_ID = #{m_id}		
+	</select>
+	
+	<select id="getBeer3" resultType="String">
+		select BEER_SEQ from T_MEMBER_FAVS a where M_ID = #{m_id}		
+	</select>
+	
+	<!-- 추가 -->
+	<select id="getBeerList1" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from T_BEER a where BEER_NAME like '%' || #{beer1} || '%'		
+	</select>
+	<select id="getBeerList2" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from T_BEER a where BEER_NAME like '%' || #{beer2} || '%'
+	</select>
+	<select id="getBeerList3" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from T_BEER a where BEER_NAME like '%' || #{beer3} || '%'		
+	</select>
+	<!-- 추가 -->
+	
+	<select id="recommendList" resultType="kr.entity.pik.BEER2" parameterType="kr.entity.pik.MemberFavorite">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from t_beer a
+		where  ( AROMA_SEQ = #{aroma_seq} and FROM_SEQ = #{from_seq} )
+		<!--  TASTE_SEQ = #{taste_seq} and  -->
+	</select>
+		
+		
+	<select id="allList" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from t_beer a
+		
+	</select>
+	
+  	<select id="viewList" resultType="kr.entity.pik.BEER2" parameterType="kr.entity.pik.BEER">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src  
+		from T_BEER a where (FROM_SEQ = #{FROM_SEQ} and AROMA_SEQ = #{AROMA_SEQ} and TASTE_SEQ = #{TASTE_SEQ} )
+	</select>
+	
+	<select id="viewList2" resultType="kr.entity.pik.BEER2" parameterType="kr.entity.pik.BEER">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from T_BEER a where (BEER_NAME like '%' || #{BEER_NAME} || '%' and FROM_SEQ = #{FROM_SEQ} and AROMA_SEQ = #{AROMA_SEQ} and TASTE_SEQ = #{TASTE_SEQ} )
+	</select>
+	
+	<select id="viewList3" resultType="kr.entity.pik.BEER2">
+		select beer_seq, beer_name, 
+		(select aroma_name from t_aroma where aroma_seq = a.aroma_seq) as aroma_seq,
+		(select from_source from t_from where from_seq = a.from_seq) as from_seq,
+		(select country_name from t_country where country_cd = a.country_cd) as country_cd,
+		(select taste_name from t_taste where taste_seq = a.taste_seq) as taste_seq, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq2)as taste_seq2, 
+		(select taste_name from t_taste where taste_seq = a.taste_seq3)as taste_seq3,
+		beer_abv, beer_src 
+		from T_BEER a where BEER_NAME like '%' || #{name} || '%'
+	</select>
+	
+</mapper>
