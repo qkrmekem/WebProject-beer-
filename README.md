@@ -141,11 +141,11 @@
     <td align="center"><b><b>크롤링<br>공지사항<br>문서,PPT</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/qkrmekem" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/microcosmos0906" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/chsm8513" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/gaesol" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/Chochoooo" target='_blank'>github</a></td>
   </tr>
 </table>
 
