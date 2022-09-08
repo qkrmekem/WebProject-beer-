@@ -79,15 +79,15 @@
 <br>
 
 ## 📌 SW유스케이스
-![image](https://user-images.githubusercontent.com/25995055/178401023-9a015e66-aa6e-4d74-8564-9b1f9d306649.png)
+![](https://user-images.githubusercontent.com/108075531/189051978-162d4b92-a5e0-40f2-8d5d-e95823ea63cc.png)
 <br>
-
+                                                                                                           
 ## 📌 서비스 흐름도
 ![image](https://user-images.githubusercontent.com/25995055/178401048-d6484bda-a2d7-40e1-998b-2bd195cd9f89.png)
 <br>
 
 ## 📌 ER다이어그램
-![image](https://user-images.githubusercontent.com/25995055/169925318-102784c2-893f-4fd7-bec9-a54c44b669d4.png)
+![7](https://user-images.githubusercontent.com/108075531/189052111-6531b028-cc41-4120-929b-e3da1ac98de1.png)
 <br>
 
 ## 🖥 화면 구성
