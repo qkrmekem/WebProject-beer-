@@ -121,11 +121,11 @@
     <td align="center"><strong>박래호</strong></td>
   </tr>
   <tr>
-    <td align="center"><b>article<br>login<br>sign up</b></td>
-    <td align="center"><b>article<br>my page<br>comment</b></td>
-    <td align="center"><b>google map api<br>search<br>recommendation</b></td>
-    <td align="center"><b>crawling<br>notice<br>file upload</td>
-    <td align="center"><b><b>crawling<br>notice<br>settlement document</b></td>
+    <td align="center"><b>게시판<br>로그인<br>회원가입</b></td>
+    <td align="center"><b>게시판<br>my page<br>댓글</b></td>
+    <td align="center"><b>구글 맵<br>search<br>info</b></td>
+    <td align="center"><b>크롤링<br>공지사항<br>파일 업로드</td>
+    <td align="center"><b><b>크롤링<br>공지사항<br>문서,PPT</b></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
