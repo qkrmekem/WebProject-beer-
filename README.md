@@ -105,6 +105,9 @@
 
 ### 게시판
 ![image](https://user-images.githubusercontent.com/108075531/189056147-9aaf1156-f79e-47e9-a92e-bd8c6ad340d6.png)
+                                                                                                           
+### 게시판 글쓰기,뷰,수정
+![image](https://user-images.githubusercontent.com/108075531/189059281-cedb9374-f65a-4d22-94cb-77da23615dc0.png)
 
                                                                                                            
 ## 👨‍👩‍👦‍👦 팀원 역할
