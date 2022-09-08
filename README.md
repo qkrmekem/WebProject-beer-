@@ -114,11 +114,11 @@
     <td align="center"><img src="https://user-images.githubusercontent.com/108075531/189049884-f27aec9a-75e6-47b6-8b3e-5500da23a547.png" width="100" height="100"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
+    <td align="center"><strong>박의민</strong></td>
+    <td align="center"><strong>백하늘</strong></td>
+    <td align="center"><strong>최성민</strong></td>
+    <td align="center"><strong>한대운</strong></td>
+    <td align="center"><strong>박래호</strong></td>
   </tr>
   <tr>
     <td align="center"><b>Frontend</b></td>
