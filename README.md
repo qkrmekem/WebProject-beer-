@@ -95,8 +95,8 @@
 ### 로그인/회원가입
 ![](https://user-images.githubusercontent.com/108075531/189053652-e94c7053-9a79-4b23-8175-eb7983c3284f.png)
 
-### 옷 정보/코디 추천(날씨, 팁, 오늘의 코디, 참고할 수 있는 코디)
-![image](https://user-images.githubusercontent.com/25995055/178401127-287e6de2-4396-49fc-a107-59c4d5cd55c7.png)
+### 메인, google maps api
+![](https://user-images.githubusercontent.com/108075531/189054383-1109bcc6-e611-472c-8d9c-11a20929fec8.png)
 <br>
 
 ### 일정/고객센터
