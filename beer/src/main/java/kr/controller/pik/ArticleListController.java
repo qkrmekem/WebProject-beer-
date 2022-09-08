@@ -17,8 +17,11 @@ public class ArticleListController implements Controller{
 	@Override
 	public String requestProcessor(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		
 		ArticleMapper dao = new ArticleMapper();
 		
+		//페이징 계산을 위해 articleList.jsp에서 page 파라미터를 가져오
 		int page = Integer.parseInt(request.getParameter("page"));
 		
 		int totalArticleCount = dao.countArticleList();
