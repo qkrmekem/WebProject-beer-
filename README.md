@@ -1,5 +1,5 @@
 # 📎 당신을 위한 맥주 추전 사이트(팀명: pik)
-![image](https://user-images.githubusercontent.com/25995055/178401309-2a2ffc86-ef45-439b-bfd8-6978312100bc.png)
+![1](https://user-images.githubusercontent.com/108075531/189048524-57acb715-200b-4b06-967b-8e0e6e625305.png)
 
 
 ## 👀 서비스 소개
